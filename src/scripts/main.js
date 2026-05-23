@@ -17,7 +17,7 @@ document.addEventListener('click', (e) => {
   let posTop = mouseY - spiderHeight / 2;
 
   if (posLeft < 0) {
-    posLeft = 0
+    posLeft = 0;
   }
 
   if (posTop < 0) {
